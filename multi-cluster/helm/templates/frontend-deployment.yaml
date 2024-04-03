@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: php-redis
-        image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
+        image: <image>:<tag> # {"$imagescan": "test-scan"}
+        #image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
         resources:
           requests:
             cpu: 100m
