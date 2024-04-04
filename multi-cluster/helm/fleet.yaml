@@ -11,7 +11,7 @@ imageScans:
       order: asc
 
   # specify images to scan
-  image: "www.harbor.test.com/google-samples/gb-frontend"
+  image: "demo.harbor.com/google-samples/gb-frontend"
 
   # Specify the tag name, it has to be unique in the same bundle
   tagName: test-scan
